@@ -283,7 +283,8 @@
             background-color: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
-            text-decoration: none; /* Hilangkan garis bawah pada link */
+            border-radius: 1rem;
+            text-decoration: none; /* Hilangkan garissss bawah pada link */
             color: inherit; /* Warna teks mengikuti warna normal */
             position: relative; /* Menjaga elemen di dalam posisi relatif */
             transition: transform 0.3s ease; /* Transisi efek naik */
