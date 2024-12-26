@@ -13,7 +13,7 @@ pipeline {
                 script {
                     // Pull the existing Docker image if needed
                     // This step can be omitted if you are sure the image is already available
-                    docker.image("laravel-app:latest").pull()
+                    docker.image("mhdzydan/laravel-app:latest").pull()
                 }
             }
         }
