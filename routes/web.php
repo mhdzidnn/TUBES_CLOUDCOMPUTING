@@ -85,6 +85,7 @@ Route::prefix('dashboard')->group(function () {
     Route::delete('/{id}', [ProductController::class, 'adminDestroyProduct']);
   });
 
+  //transaction
   Route::prefix('transactions')->group(function () {
     Route::get('', [TransactionController::class, 'adminListTransactions']);
     Route::get('/user', [TransactionController::class, 'adminListUserTransaction']);
