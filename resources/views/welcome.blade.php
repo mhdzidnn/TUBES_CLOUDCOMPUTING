@@ -11,6 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/rotialit.png" type="image/x-icon">
     <title>Roti Alit - Oleh-oleh kuningan</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -24,7 +25,7 @@
             align-items: center;
             justify-content: space-between;
             padding: 10px 20px;
-            background-color: #0056b3; /* Warna biru elegan */
+            background-color: #3BBDBB; /* Warna biru elegan */
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             position: relative;
         }
@@ -53,7 +54,7 @@
         }
 
         .navbar-menu a:hover {
-            color: #ffd700; /* Warna hover emas */
+            color: #116463; /* Warna hover emas */
         }
 
         /* Tombol Menu (Responsif) */
@@ -426,7 +427,7 @@
     <nav class="navbar">
         <div class="navbar-logo">
             <a href="#">
-                <img src="assets/img/logoroti.jpg" alt="Logo" class="logo">
+                <img src="assets/img/rotialit.png" alt="Logo" class="logo">
             </a>
         </div>
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
