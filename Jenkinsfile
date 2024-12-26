@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from your GitHub repository
-                git branch: 'main', credentialsId: 'github-credentials', url: 'https://github.com/mhdzidnn/TUBES_CLOUDCOMPUTING.git'
+                git branch: 'master', credentialsId: 'github-credentials', url: 'https://github.com/mhdzidnn/TUBES_CLOUDCOMPUTING.git'
             }
         }
         stage('Pull Existing Docker Image') {
