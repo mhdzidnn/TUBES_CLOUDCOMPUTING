@@ -7,13 +7,13 @@
 <div class="catalog-section">
     @foreach($productsCategory as $category => $products)
     <div class="catalog-category">
-        <h2>{{ $category }}</h2>
-        <p>{{ $products['description'] }}</p>
+        {{-- <h2>{{ $category }}</h2> --}}
+        {{-- <p>{{ $products['description'] }}</p> --}}
         <div class="product-grid">
             @foreach($products['products'] as $product)
             <div class="product-item">
                 <img src="{{ asset('storage/'. $product->image) }}" alt="{{ $product->name }}">
-                <h3><a href="{{ route('show', $product->id) }}">{{ $product->name }}</a></h3>
+                {{-- <h3><a href="{{ route('show', $product->id) }}">{{ $product->name }}</a></h3> --}}
                 @foreach(json_decode($product->description) as $spec)
                 <p>{{ $spec }}</p>
                 @endforeach

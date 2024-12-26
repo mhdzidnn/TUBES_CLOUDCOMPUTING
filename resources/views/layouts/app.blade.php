@@ -26,7 +26,7 @@
 </head>
 <body>
     <div class="header">
-        <img src="{{ asset('assets/img/logo.png') }}" alt="Global" height="50">
+        <img src="{{ asset('assets/img/logoroti.jpg') }}" alt="Global" height="50">
         <div class="nav">
             <a href="{{ url('/home') }}" class="{{ request()->is('home') ? 'active' : '' }}">Home</a>
             <a href="{{ url('/products') }}" class="{{ request()->is('products') ? 'active' : '' }}">Product</a>
@@ -41,11 +41,11 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="column">
-                <img src="{{ asset('assets/img/footer-logo.png') }}" alt="logo" class="logo">
+                <img src="{{ asset('assets/img/logoroti.jpg') }}" alt="logo" class="logo">
             </div>
             <div class="column">
                 <h3>About Us</h3>
-                <p>We‘re AddCloud – your go-to hub when you need more than just storage. We’ve got the cumulus of data handling!</p>
+                <p>Roti Alit crafts delightful small bread with authentic flavors, bringing joy and warmth to every moment.</p>
             </div>
             <div class="column">
                 <h3>Quick Links</h3>
@@ -58,24 +58,21 @@
             </div>
             <div class="column">
                 <h3>Our Location</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Jl. Krekot Bunder Raya 11A, RT/RW: 004/06 Pasar Baru, Sawah Besar - Jakarta Pusat 10710</p>
-                <p><i class="fas fa-phone-alt"></i> +123 456 7890</p>
-                <p><i class="fas fa-envelope"></i> addcloud@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Caracas, Kec. Cilimus, Kabupaten Kuningan, Jawa Barat 45556</p>
+                <p><i class="fas fa-phone-alt"></i> +62 822-7887-8200</p>
+                <p><i class="fas fa-envelope"></i> rotialit@gmail.com</p>
             </div>
             <div class="column social-media">
-                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a>
-                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rotialit_?igsh=MTlnbTgycnlyeGRpeQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/rotialit_?_t=ZS-8sViLzslbSa&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
             </div>
         </div>
         <div class="footer-bottom">
-            &copy; Global Sahabat Otomasi. All rights reserved.
+            &copy; RotiAlit. All rights reserved.
         </div>
     </footer>
     <div class="whatsapp-button">
-        <a href="https://wa.me/6281818899989" target="_blank">
+        <a href="https://wa.me/6282278878200" target="_blank">
             <img src="{{ asset('assets/img/logo_wa.png') }}" alt="WhatsApp" style="width: 30px; height: 30px;">
         </a>
     </div>

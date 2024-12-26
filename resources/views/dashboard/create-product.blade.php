@@ -25,9 +25,9 @@
                                 <div class="mb-3">
                                     <x-input-label for="category" :value="__('Category')" />
                                     <select id="category" name="category" class="mt-1 block w-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm px-3 h-10" required autofocus autocomplete="name">
-                                        <option value="Personal Cloud Server">Personal Cloud Server</option>
-                                        <option value="Family Cloud Server">Family Cloud Server</option>
-                                        <option value="Company Cloud Server">Company Cloud Server</option>
+                                        <option value="Personal Cloud Server">Roti Alit</option>
+                                        <option value="Family Cloud Server">Keripik</option>
+                                        <option value="Company Cloud Server">Minuman</option>
                                     </select>
                                     <x-input-error :messages="$errors->get('category')" class="mt-2" />
                                 </div>

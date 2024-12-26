@@ -4,20 +4,6 @@
 @section('title', 'Transaction')
 
 @section('content')
-<div class="availability-section">
-    <div class="text">
-        <h2>Solution for high availability</h2>
-        <p>Back up your Windows PCs, Mac devices, and Microsoft OneDrive data to the cloud and never lose a file again.</p>
-    </div>
-    <img src="{{ asset('assets/img/availability.png') }}" alt="High Availability">
-</div>
-
-<div class="product-navigation">
-    <ul>
-        <li><a href="#transaction">Transaction</a></li>
-        <li><a href="{{ route('onlineshop') }}">OnlineShop</a></li>
-    </ul>
-</div>
 
 <div class="transaction-section">
     <div class="transaction-header">
