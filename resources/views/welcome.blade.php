@@ -14,10 +14,12 @@
     <link rel="icon" href="assets/img/rotialit.png" type="image/x-icon">
     <title>Roti Alit - Oleh-oleh kuningan</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: "Open Sans", sans-serif;
         }
 
         .navbar {
@@ -326,7 +328,7 @@
 
         /* Testimonials */
         .testimonials {
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/img/Testimonial.jpeg');
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/img/baker.jpg');
             background-size: cover;
             background-position: center;
             color: var(--text-light);
