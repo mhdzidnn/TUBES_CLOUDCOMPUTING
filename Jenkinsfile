@@ -11,9 +11,8 @@ pipeline {
         stage('Pull Docker Image') {
             steps {
                 script {
-                    // Pull the existing Docker image if needed
-                    // This step can be omitted if you are sure the image is already available
-                    docker.image("laravel-app:latest").pull()
+                    // docker.image("laravel-app:latest").pull()
+                    echo "Skipping Docker image pull for now."
                 }
             }
         }
