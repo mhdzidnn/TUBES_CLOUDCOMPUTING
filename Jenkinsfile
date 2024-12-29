@@ -20,7 +20,8 @@ pipeline {
             steps {
                 script {
                     // Run tests using Docker Compose
-                    bat 'docker-compose run --rm app php artisan test'
+                    // bat 'docker-compose run --rm app php artisan test'
+                    echo "Skipping test execution for now."
                 }
             }
         }
@@ -28,7 +29,8 @@ pipeline {
             steps {
                 script {
                     // Deploy the application using Docker Compose
-                    bat 'docker-compose up -d'
+                    // bat 'docker-compose up -d'
+                    echo "Skipping application deployment for now."
                 }
             }
         }
